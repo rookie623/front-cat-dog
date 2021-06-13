@@ -1,0 +1,19 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+nav {
+  background-color: #F0A83E;
+}
+
+.top {
+    background-color: #222222;
+  color: #FFFFFF;
+
+}
+
+footer {
+    background-color: #3C2313;
+}
