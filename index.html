@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/big_pawprint.svg" type="image/svg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Front Cat&Dog</title>
 </head>
+
 <body>
     <header>
-        <p>Grandes ofertas en comederos</p>
-        <ul>
-            <li>Español</li>
-            <li>$ARG</li>
+        <div class="top">
+            <p>Grandes ofertas en comederos</p>
+        <ul type="none">
+            <li>Español<i class="fas fa-chevron-down"></i></li>
+            <li>$ARG<i class="fas fa-chevron-down"></i></li>
         </ul>
-        </ul>
-        <img src="img/logo.svg" alt="logo">
-        <ul>
-            <li>Categorias</li>
-            <li>Pets</li>
-            <li>Nosotros</li>
-            <li>Contactenos</li>
-        </ul>
-        <section>
-            <img src="img/background.png" alt="back">
-            <p>!Es un placer tenerte aquí!</p>
-            <p>!Comderos en descuento!</p>
-            <p>COMEDEROS</p>
+        </div>        
+        <nav>
+            <img src="img/logo.svg" alt="logo">
+            <ul type="none">
+                <li><i class="fa fa-paw" aria-hidden="true"></i>Categorias</li>
+                <li><i class="fa fa-paw" aria-hidden="true"></i>Pets</li>
+                <li><i class="fa fa-paw" aria-hidden="true"></i>Nosotros</li>
+                <li><i class="fa fa-paw" aria-hidden="true"></i>Contactenos</li>
+            </ul>
+        </nav>
+        <section class="banner">
+            <h2>!Es un placer tenerte aquí!</h2>
+            <p>!Comederos en descuento!</p>
+            <button>COMEDEROS</button>
         </section>
-        <section>
-            <img src="img/big_pawprint.svg" alt="">
-            <h2>Productos Destacados</h2>
-            <p>Comederos - Accesorios - Comida</p>
-            <img src="img/churrasquito.png" alt="churrasquito">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-            <img src="img/comedero.png" alt="comedero">
-            <p>Comero para perro</p>
-            <p>$250</p>
-            <img src="img/huesito.png" alt="huesito">
-            <p>Juguete Huesito</p>
-            <p>$650</p>
-        </section>
-        <section>
-            <h2>Contáctanos</h2>
-            <form action="#">
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="text" placeholder="Ingresa tu correo electrónico">
-                <input type="text" placeholder="Teléfono">
-                <button>Resetear</button>
-                <button>Enviar</button>
-            </form>
-        </section>
-        <footer>
-            <div>
-                <img src="img/enviar-correo 1.svg" alt="sobrecorreo">
-                <h2>Suscribite para mas novedades</h2>
-                <form action="#">
-                    <input type="text" placeholder="Ingresa tu correo electronico">
-                    <button>Suscribirme</button>
-                </form>
-            </div>
-            <img src="img/location.svg" alt="localidad">
-            <h3>Localidad</h3>
-            <p>Calle - Provincia</p>
-            <img src="img/phone.svg" alt="telefono">
-            <h3>Telefono</h3>
-            <p>Numero de telefono</p>
-            <img src="img/correo.svg" alt="correo">
-            <h3>Correo Electronico</h3>
-            <p>Direccion de correo</p>
-            <img src="img/logo2.png" alt="logo2">
-            <p>Todos los derechos reservados Front End</p>
-        </footer>
     </header>
+    <section>
+        <img src="img/big_pawprint.svg" alt="">
+        <h2>Productos Destacados</h2>
+        <p>Comederos - Accesorios - Comida</p>
+        <img src="img/churrasquito.png" alt="churrasquito">
+        <p>Juguete Churrasquito</p>
+        <p>$150</p>
+        <img src="img/comedero.png" alt="comedero">
+        <p>Comero para perro</p>
+        <p>$250</p>
+        <img src="img/huesito.png" alt="huesito">
+        <p>Juguete Huesito</p>
+        <p>$650</p>
+    </section>
+    <section>
+        <h2>Contáctanos</h2>
+        <form action="#">
+            <input type="text" placeholder="Nombre y Apellido">
+            <input type="text" placeholder="Ingresa tu correo electrónico">
+            <input type="text" placeholder="Teléfono">
+            <button>Resetear</button>
+            <button>Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <img src="img/enviar-correo 1.svg" alt="sobrecorreo">
+            <h2>Suscribite para mas novedades</h2>
+            <form action="#">
+                <input type="text" placeholder="Ingresa tu correo electronico">
+                <button>Suscribirme</button>
+            </form>
+        </div>
+        <img src="img/location.svg" alt="localidad">
+        <h3>Localidad</h3>
+        <p>Calle - Provincia</p>
+        <img src="img/phone.svg" alt="telefono">
+        <h3>Telefono</h3>
+        <p>Numero de telefono</p>
+        <img src="img/correo.svg" alt="correo">
+        <h3>Correo Electronico</h3>
+        <p>Direccion de correo</p>
+        <img src="img/logo2.png" alt="logo2">
+        <p>Todos los derechos reservados Front End</p>
+    </footer>
 </body>
+
 </html>
